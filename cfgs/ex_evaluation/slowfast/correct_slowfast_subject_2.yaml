@@ -1,0 +1,22 @@
+#RehabCfg
+seed_num: 42
+batch_size: 8
+num_workers: 32
+max_epochs: 500
+lr: 0.01
+device: 7
+num_frames: 32
+use_scheduler: False
+scheduler_milestones: [10, 15]
+img_size: [256,256]
+model_type: 'SlowFast'
+load_checkpoint: True
+checkpoint_name: revived-fire-141
+optimizer_type: 'AdamW'
+early_stopping: 25
+cross_subject: True
+bacbone_freeze: True
+subject: Subject_2
+task: action_correctness
+project_name: Exercise_Form_Evaluation
+bacbone_freeze: True

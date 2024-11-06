@@ -1,0 +1,22 @@
+#RehabCfg
+dataset_root: '/data/wmucha/datasets/rehab_dataset/Dataset'
+seed_num: 42
+batch_size: 128
+num_workers: 32
+max_epochs: 500
+lr: 0.01
+device: 2
+num_frames: 32
+use_scheduler: True
+scheduler_milestones: [10, 15,50]
+img_size: [256,256]
+model_type: 'EfficientNet'
+load_checkpoint: False
+checkpoint_name: flowing-aardvark-15
+optimizer_type: 'AdamW'
+early_stopping: 25
+cross_subject: False
+subject: Subject_9
+task: pick_detection
+project_name: Pick_Detection
+bacbone_freeze: True

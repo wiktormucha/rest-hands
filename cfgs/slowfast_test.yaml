@@ -1,0 +1,21 @@
+#RehabCfg
+dataset_root: '/data/wmucha/datasets/rehab_dataset/Dataset'
+seed_num: 42
+batch_size: 8
+num_workers: 32
+max_epochs: 500
+lr: 0.01
+device: 5
+num_frames: 32
+use_scheduler: False
+scheduler_milestones: [10, 15]
+img_size: [224,224]
+model_type: SwinS
+load_checkpoint: True
+checkpoint_name: lively-voice-113
+optimizer_type: 'AdamW'
+early_stopping: 25
+cross_subject: True
+subject: Subject_1
+task: exercise_recognition
+project_name: Rehab_Action_Recognition

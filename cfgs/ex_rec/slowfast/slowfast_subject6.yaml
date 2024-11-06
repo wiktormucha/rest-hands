@@ -1,0 +1,21 @@
+#RehabCfg
+seed_num: 42
+batch_size: 8
+num_workers: 32
+max_epochs: 500
+lr: 0.01
+device: 6
+num_frames: 32
+use_scheduler: True
+scheduler_milestones: [10, 15]
+img_size: [256,256]
+model_type: 'SlowFast'
+load_checkpoint: False
+checkpoint_name: checkpoints/weights.pth
+optimizer_type: 'AdamW'
+early_stopping: 25
+cross_subject: True
+subject: Subject_6
+task: exercise_recognition
+project_name: Rehab_Action_Recognition
+bacbone_freeze: True
