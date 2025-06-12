@@ -103,9 +103,11 @@ This dataset and associated code (collectively, "Materials") are made available 
 If you use the REST-HANDS dataset or code in your research, please consider to cite our paper:
 
 ```bibtex
-@article{mucha2024rest,
-  title={REST-HANDS: Rehabilitation with Egocentric Vision Using Smartglasses for Treatment of Hands after Surviving Stroke},
+@inproceedings{mucha2025rest,
+  title={REST-HANDS: Rehabilitation with Egocentric Vision Using Smartglasses for Treatment of Hands After Surviving Stroke},
   author={Mucha, Wiktor and Tanaka, Kentaro and Kampel, Martin},
-  journal={arXiv preprint arXiv:2409.20116},
-  year={2024}
+  booktitle={European Conference on Computer Vision},
+  pages={253--270},
+  year={2025},
+  organization={Springer}
 }
